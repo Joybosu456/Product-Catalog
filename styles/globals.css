@@ -1,0 +1,43 @@
+
+.form-control:focus,
+.form-control:focus-visible,
+.form-control.is-invalid:focus,
+.form-control.is-valid:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.btn:focus,
+.btn:focus-visible {
+  box-shadow: none !important;
+}
+
+/* Action column and button sizing used in product list */
+.actions-header {
+  width: 220px;
+}
+
+.action-cell {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.action-cell .btn {
+  height: 30px;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.btn-edit {
+  width: 50px;
+}
+
+.btn-delete {
+  width: 56px;
+}
+
+.btn-addcart {
+  width: 92px;
+}
+
